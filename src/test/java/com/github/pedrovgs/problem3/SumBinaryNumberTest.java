@@ -167,6 +167,16 @@ public class SumBinaryNumberTest {
 
     assertEquals(Integer.parseInt("10", 2), Integer.parseInt(result, 2));
   }
+  
+  @Test public void onePlusOneEqualsTwo() {
+    String n1 = "11";
+    String n2 = "12";
+
+    String result = sumBinaryNumbers.sumBinaryNumbersCheating(n1, n2);
+
+    assertEquals("10", result);
+  }
+  
 
   @Test public void fivePlusSevenEqualsTwelveBasedOnCount() {
     String n1 = "101";
